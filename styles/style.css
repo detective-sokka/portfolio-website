@@ -9,6 +9,10 @@ h1 {
   color: #473c33;
 }
 
+h2 {
+  display: inline-block;
+}
+
 #about {
   clear: both;
 }
@@ -29,19 +33,15 @@ section ul {
   border-bottom: 2px black;
 }
 
-header h1 {
-  text-align: center;
-  width: 100%;
-}
-
-h2 {
-  display: inline-block;
-}
-
 header {
   float: top;
   width: 100%;
   padding-bottom: 10px;
+}
+
+header h1 {
+  text-align: center;
+  width: 100%;
 }
 
 nav {
@@ -51,16 +51,6 @@ nav {
   padding: 10px;
   position: fixed;
   background-color: #fec868;
-}
-
-
-.project p {
-  position: relative;
-  width: 560px;
-}
-
-.certificate p {
-  position: relative;
 }
 
 nav ul {
@@ -88,6 +78,21 @@ nav a:hover {
 main {
   margin-left: 160px;
   padding: 10px;
+  overflow: auto;
+}
+
+footer p {
+  text-align: center;
+  font-style: italic;
+}
+
+.project p {
+  position: relative;
+  width: 560px;
+}
+
+.certificate p {
+  position: relative;
 }
 
 .skill {
@@ -103,25 +108,16 @@ main {
   display: inline-block;
 }
 
-main {
-  overflow: auto;
-}
-
-footer p {
-  text-align: center;
-  font-style: italic;
-}
-
-.profile-photo-figure {
-  float: right;
-  width: 40%;
-}
-
 #profile-photo {
   position: relative;
   width: 100%;
   border-radius: 20%;
   border: 1px solid #473c33;
+}
+
+.profile-photo-figure {
+  float: right;
+  width: 40%;
 }
 
 .profile-photo-figure figcaption {
