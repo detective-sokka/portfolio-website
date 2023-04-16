@@ -1,3 +1,6 @@
 # Portfolio Website
-This is my portfolio website. I will be using HTML, CSS, JS, JQuery and React to make this
+This is my portfolio website. I will be using the following to make this:
+1. HTML 
+2. CSS
+3. JavaScript
 
