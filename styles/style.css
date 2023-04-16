@@ -27,25 +27,6 @@ h1 {
   text-align: center;
 }
 
-#hero-image {
-
-  width: 100%;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
-  opacity: 0.5;
-}
-
-.hero-text {
-
-  margin: 0px;
-  position: absolute;
-  top: 40%;
-  width: 30%;
-  margin-left: 35%;
-  margin-right: 35%;
-  text-align: right;
-}
-
 section ul {
   list-style-type: none;
 }
@@ -235,3 +216,5 @@ footer p {
     height: auto;
   }
 }
+
+
