@@ -1,12 +1,8 @@
 body {
-
   background-color: #fec868;
   font-family: "TTInterfaces", Arial, Helvetica, sans-serif;
   margin: 0%;
-}
-
-h1 {
-  color: #473c33;
+  color: #473C33;
 }
 
 h2 {
@@ -14,11 +10,8 @@ h2 {
 }
 
 .wrapper {
-
   background-color: #fec868;
-  color: #473c33;
   padding: 0;
-
   display: grid;
   grid-template-columns: 140px 1fr;
 }
@@ -28,10 +21,9 @@ section ul {
 }
 
 #work-exp ul {
-  list-style-type: "🖥️";
+  list-style-type: "🖥️  ";
   border-bottom: 2px black;
 }
-
 
 header h1 {
   text-align: center;
@@ -101,27 +93,29 @@ footer p {
 }
 
 #about {
-
   display: grid;
+  justify-content: center;
+  align-items: center;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
 }
 
 #profile-photo {
-    
   border-radius: 20%;
   border: 1px solid #473c33;
-  width: 100%;
+  height: 315px;
+  width: 261px;
+  clear: left;
 }
 
 .profile-photo-figure {
-  
   grid-column: 2;
+  width: 261px;
 }
 
 .about-text {
-
   grid-column: 1;
   grid-row: 1;
+  align-self: center;
 }
 
 .profile-photo-figure figcaption {
@@ -146,6 +140,14 @@ footer p {
   }
 
   footer {
+
+    grid-column: 1;
+  }
+
+  #about {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .profile-photo-figure {
 
     grid-column: 1;
   }
