@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
     <title>My portfolio</title>
     <link rel="icon" type="image/x-icon" href="./public/favicon.svg" />
     <link rel="stylesheet" href="styles/style.css" />
@@ -14,7 +20,7 @@
       <h1>Portfolio</h1>
     </header>
 
-    <div class="wrapper">          
+    <div class="wrapper d-flex">
       <nav>
         <ul>
           <li><a href="#work-exp">Work experience</a></li>
@@ -26,156 +32,138 @@
           <li><a href="#contact-me">Contact me</a></li>
         </ul>
       </nav>
-
-      <main>        
+      <main>
         <section id="work-exp">
-          <h1>Work experience</h2>
-          <h3>Tally solutions</h3>
-          <p><strong> Role </strong> - Software Development Engineer - 1 <br/>
-            <strong> Duration -</strong> July 2020 to July 2022</p>
-          <h4>Notable acheivements</h4>
-          <ul>
-            <li>Designed and programmed a new button framework for Tally Prime using
-                the Windows GDI library and Message loop.</li>
-            <li>Overhauled 3 major customer facing features of the Tally Prime
-                client</li>
-            <li>Maintained major features in tally, drastically optimising the code
-                and improving readability.</li>
-          </ul>                                  
+          <h1>Work experience</h1>
+          <div class="container">
+            <h3>Tally solutions</h3>
+            <p>
+              <strong> Role </strong> - Software Development Engineer - 1 <br />
+              <strong> Duration -</strong> July 2020 to July 2022
+            </p>
+            <h4>Notable acheivements</h4>
+            <ul>
+              <li>
+                Designed and programmed a new button framework for Tally Prime
+                using the Windows GDI library and Message loop.
+              </li>
+              <li>
+                Overhauled 3 major customer facing features of the Tally Prime
+                client
+              </li>
+              <li>
+                Maintained major features in tally, drastically optimising the
+                code and improving readability.
+              </li>
+            </ul>
 
-          <p><strong> Role </strong> - Software Development Engineer Trainee <br/>
-          <strong> Duration -</strong> July 2018 to July 2020</p>
-          <h4>Notable acheivements</h4>
-          <ul>
-            <li>Revamped graph report capabilities of Tally client using C++.</li>
-            <li>Wrote hundreds of scripts for test-case automation.</li>
-            <li>Actively influenced design meetings for reports in Tally client.</li>
-          </ul>                                            
+            <p>
+              <strong> Role </strong> - Software Development Engineer Trainee
+              <br />
+              <strong> Duration -</strong> July 2018 to July 2020
+            </p>
+            <h4>Notable acheivements</h4>
+            <ul>
+              <li>
+                Revamped graph report capabilities of Tally client using C++.
+              </li>
+              <li>Wrote hundreds of scripts for test-case automation.</li>
+              <li>
+                Actively influenced design meetings for reports in Tally client.
+              </li>
+            </ul>
+          </div>
         </section>
-        
         <section id="education">
           <h1>Education</h1>
-          <h3>Northeastern University</h3>
-          <p><strong>Degree - </strong> MS in Information Systems</p>
-          <h4>Courses taken</h4>
-          <p>
-            1. Application Engineering and Development <br />
-            2. Data Science Engineering methods and Tools <br />
-            3. Web design and User experience <br />
-            4. Object oriented Development <br />
-          </p>
-          <h3>BMS Institute of Technology</h3>
-          <p><strong>Degree - </strong> BE in Information Science</p>
+          <div class="container">
+            <h3>Northeastern University</h3>
+            <p><strong>Degree - </strong> MS in Information Systems</p>
+            <h4>Courses taken</h4>
+            <p>
+              1. Application Engineering and Development <br />
+              2. Data Science Engineering methods and Tools <br />
+              3. Web design and User experience <br />
+              4. Object oriented Development <br />
+            </p>
+            <h3>BMS Institute of Technology</h3>
+            <p><strong>Degree - </strong> BE in Information Science</p>
+          </div>
         </section>
-
         <section id="skills">
           <h1>Skills</h1>
           <div class="skill">
             <img src="images/cpp.png" />
-            <p><strong>C++</strong></p>
           </div>
           <div class="skill">
             <img src="images/java.png" />
-            <p><strong>Java</strong></p>
           </div>
           <div class="skill">
             <img src="images/python.png" />
-            <p><strong>Python</strong></p>
           </div>
         </section>
-
-        <section id="projects">
-          <h1>Projects</h1>
-          <div class="project">
-            <h3>Button Framework</h3>
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/UhjQOBa4VR8"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
-                    picture-in-picture; web-share"
-              allowfullscreen
-            >
-            </iframe>
-          </div>
-          <div class="project">
-            <h3>Competitive programming portfolio</h3>
-            <iframe
-              width="560"
-              height="315"
-              src="https://detective-sokka.github.io/Competitive-Programming/"
-            >
-            </iframe>
-            <p>
-              Integrating my competitive programming portfolio. Written in
-              Python and animated using Manim
-            </p>
-          </div>
-        </section>
-
-        <section id="certifications">
-            <h1>Certifications</h1>
-          <div class="certificate">
-            <h3>
-              CCDSAP - CodeChef Certified Data Structures and Algorithms Program
-            </h3>
-            <iframe
-              width="560"
-              height="315"
-              src="https://drive.google.com/uc?export=view&id=1uDxsHn9kd7Nb_IrjKxQ-PEU8Rm68hOq2"
-            ></iframe>
-          </div>
-          <div class="certificate">
-            <h3>Into to SQL for Data Science course</h3>
-            <iframe
-              width="560"
-              height="315"
-              src="https://drive.google.com/uc?export=view&id=1OYiW1ZHdCuISeWJxPnwHQtTqB8so8ne-"
-            ></iframe>
-          </div>
-        </section>
-                
         <section id="about">
-            <figure class="profile-photo-figure">
-                <img id="profile-photo" src="images/photo.jpeg" />
-                <figcaption>At the Intrepid museum, New york</figcaption>
-            </figure>
-    
-          <div class="about-text">
-            <h1>About</h1>
-            <p>
-              Hi! I'm Sai Dutt and I am pursuing a Masters degree in Information
-              Systems at Northeastern university. So far at this program, I
-              explored the basics of Data science,learned to design great
-              websites and learned the basics of Java programming. For the past
-              4 years, I have been working as a Software Development Engineer at
-              Tally solutions - the leading providers of ERP software in India.
-            </p>
+          <h1>About</h1>
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <div class="about-text">
+                  <p>
+                    Hi! I'm Sai Dutt and I am pursuing a Masters degree in
+                    Information Systems at Northeastern university. So far at
+                    this program, I explored the basics of Data science,learned
+                    to design great websites and learned the basics of Java
+                    programming. For the past 4 years, I have been working as a
+                    Software Development Engineer at Tally solutions - the
+                    leading providers of ERP software in India.
+                  </p>
+                </div>
+              </div>
+              <div class="col justify-content-md-center">
+                <figure class="profile-photo-figure">
+                  <img id="profile-photo" src="images/photo.jpeg" />
+                  <figcaption>At the Intrepid museum, New york</figcaption>
+                </figure>
+              </div>
+            </div>
           </div>
-        </section>        
-
+        </section>
         <section id="contact-me">
           <h1>Contact me</h1>
-          <div class="contact-me">
-            <p>
-              <strong>Phone number - </strong>
-              <a href="tel:6174076145"> +1 (617) 407 6145 </a>
-            </p>
-            <p>
-              <strong>Email address - </strong>
-              <a href="mailto:dutt.sa@northeastern.edu">
-                dutt.sa@northeastern.edu
-              </a>
-            </p>
+          <div class="container">
+            <div class="contact-me">
+              <p>
+                <strong>Phone number - </strong>
+                <a href="tel:6174076145"> +1 (617) 407 6145 </a>
+              </p>
+              <p>
+                <strong>Email address - </strong>
+                <a href="mailto:dutt.sa@northeastern.edu">
+                  dutt.sa@northeastern.edu
+                </a>
+              </p>
+            </div>
           </div>
         </section>
       </main>
-
-      <footer>
-        <p>Copyright &copy;SaiDutt 2023</p>
-      </footer>
     </div>
+    <footer>
+      <p>Copyright &copy;SaiDutt 2023</p>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
