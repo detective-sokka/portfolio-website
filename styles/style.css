@@ -84,14 +84,6 @@ footer p {
 
     grid-template-columns: 1fr;
   }
-  
-  nav {
-    position: static;    
-  }
-
-  main {
-    grid-column: 1;
-  }
 
   footer {
 
